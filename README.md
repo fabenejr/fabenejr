@@ -19,7 +19,7 @@
 
 <div>
 <a href="https://github.com/fabenejr">
-<img height="180em" src="github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=fabenejr&layout=compact&langs_count=7&theme=dracula"/>
-<img height="180em" src="github-readme-stats-sigma-five.vercel.app/api?username=fabenejr&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=fabenejr&layout=compact&langs_count=7&theme=dracula"/>
+<img height="180em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=fabenejr&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
 </div>
   
