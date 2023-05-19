@@ -17,9 +17,10 @@
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" widht=40 height=40 /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" widht=40 height=40 /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" widht=40 height=40 /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" widht=40 height=40 />
           
 
-<div>
+<div style="display: flex;">
 <a href="https://github.com/fabenejr">
-<img height="180em" img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=fabenejr&layout=compact&langs_count=7&theme=dracula"/> 
-<img height="180em" img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=fabenejr&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+<img height="180em" img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=fabenejr&layout=compact&langs_count=7&theme=omni"/> 
+<img height="180em" img align="center" src="https://github-readme-stats-sigma-five.vercel.app/api?username=fabenejr&show_icons=true&theme=omni&include_all_commits=true&count_private=true"/>
 </div>
   
+![Giphy](giphy.gif)
