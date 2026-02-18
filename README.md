@@ -9,7 +9,7 @@
 ## ⌨️ What I’m Doing Now
 
 <p align="left">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1500&color=00C853&width=435&lines=Back-end+developer+%26+Tech-lead;Building+promotion+%26+automation+tools;Always+learning+Python+%26+AI" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1500&color=00C853&width=435&lines=Back-end+developer+%26+Tech-lead;Building+chatBot+%26+automation+tools;Always+learning+Python+%26+AI" alt="Typing SVG" />
 </p>
 
 ---
