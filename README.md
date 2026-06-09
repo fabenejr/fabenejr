@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  🎓 Systems Analysis & Development · ML Engineering (Pós-graduação)<br/>
+  🎓 Systems Analysis & Development · ML Engineering <br/>
   🚀 Back-End Engineer focused on Node.js, BFF architecture and API orchestration
 </p>
 
