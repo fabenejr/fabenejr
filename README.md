@@ -61,37 +61,6 @@
 
 ---
 
-## 🚀 What I'm Building
-
-<table align="center" width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔀 BFF Layer & API Orchestration</h3>
-      <p>Designing and implementing BFF (Backend for Frontend) layers with Node.js, handling API aggregation, transformation and routing through Kong and Nginx.</p>
-      <p><code>Node.js</code> <code>NestJS</code> <code>Kong</code> <code>Nginx</code> <code>TypeScript</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🍺 SaaS B2B2C — Distribution</h3>
-      <p>Platform for chopp & beverage distributors with order management, keg control, WhatsApp integration and PIX payments.</p>
-      <p><code>Next.js</code> <code>Supabase</code> <code>WhatsApp API</code> <code>PIX</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 AI Chatbot & Automation</h3>
-      <p>LLM-powered WhatsApp assistant for intelligent customer service, contextual responses and automated support flows.</p>
-      <p><code>OpenAI</code> <code>LangChain</code> <code>Node.js</code> <code>Redis</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📈 Observability & Monitoring</h3>
-      <p>End-to-end observability pipelines with Grafana dashboards, metrics collection and real-time alerting for production services.</p>
-      <p><code>Grafana</code> <code>Prometheus</code> <code>Docker</code> <code>AWS</code></p>
-    </td>
-  </tr>
-</table>
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
