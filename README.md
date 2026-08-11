@@ -61,17 +61,6 @@
 
 ---
 
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api?username=fabenejr&show_icons=true&theme=dark&bg_color=0d1117&title_color=4f98a3&icon_color=4f98a3&border_color=30363d&include_all_commits=true&count_private=true" />
-  <img height="170em" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=fabenejr&layout=compact&langs_count=6&theme=dark&bg_color=0d1117&title_color=4f98a3&border_color=30363d" />
-</div>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com/?user=fabenejr&theme=dark&background=0d1117&ring=4f98a3&fire=4f98a3&currStreakLabel=4f98a3&border=30363d" />
-</div>
-
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=fabenejr&bg_color=0d1117&color=4f98a3&line=4f98a3&point=ffffff&area=true&hide_border=true" width="100%" />
 </div>
