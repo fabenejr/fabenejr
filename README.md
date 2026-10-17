@@ -56,10 +56,6 @@
 
 <a href="https://steamcommunity.com/id/juninfb"><img src="./assets/steam.svg" alt="Steam stats" width="100%" /></a>
 
-## Activity
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=fabenejr&bg_color=0b1315&color=4f98a3&line=4f98a3&point=ffffff&area=true&hide_border=true" width="100%" />
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a2929,100:01696f&height=80&section=footer" />
 </p>
