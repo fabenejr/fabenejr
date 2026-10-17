@@ -33,7 +33,7 @@
 | **[ChoppNow](https://www.choppnow.com.br)** · in production | Sales booster for draft beer events: a public storefront that generates the order and a console that backs the supplier payout | Next.js · TypeScript · Turborepo · Supabase · PostgreSQL · Upstash Redis · WhatsApp Cloud API · Sentry · Jest · Playwright |
 | **[Viking Oarsmen](https://github.com/fabenejr/row-your-boat)** · open source | Valheim mod | C# · .NET Framework · Unity · BepInEx · Jötunn |
 | **[CloudWalk Monitoring](https://github.com/fabenejr/cloudwalk-monitoring-test)** · challenge | Real-time monitoring with alerts | Node.js · Express · WebSocket · SQLite · node-cron · Gemini |
-| **[NLW Agents](https://github.com/fabenejr/nlw-agents-server)** · study | AI agents with vector search | TypeScript · Fastify · Drizzle ORM · PostgreSQL · pgvector · Zod · React |
+| **[NLW SpaceTime](https://github.com/fabenejr/nlw_spacetime)** · study | AI agents with vector search | TypeScript · Fastify · Drizzle ORM · PostgreSQL · pgvector · Zod · React |
 
 ## Skills & technologies
 
