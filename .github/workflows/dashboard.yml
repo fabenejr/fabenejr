@@ -17,6 +17,8 @@ jobs:
         with:
           node-version: 22
       - run: node scripts/render-dashboard.mjs
+        env:
+          STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"

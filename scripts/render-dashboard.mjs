@@ -16,18 +16,78 @@ const wrap = (s, n) => {
 }
 const trunc = (s, n) => (s.length > n ? `${s.slice(0, n - 1)}…` : s)
 
-async function load() {
-  try {
-    const res = await fetch(SOURCE, { signal: AbortSignal.timeout(20_000) })
-    if (!res.ok) throw new Error(`HTTP ${res.status}`)
-    const data = await res.json()
-    if (!data.library?.topGames?.length) throw new Error("empty library")
-    await writeFile(CACHE, `${JSON.stringify(data, null, 2)}\n`)
-    return data
-  } catch (error) {
-    console.warn(`Using cached data/steam.json (${error.message})`)
-    return JSON.parse(await readFile(CACHE, "utf8"))
+const STEAM_API = "https://api.steampowered.com"
+const VANITY = process.env.STEAM_VANITY ?? "juninfb"
+const hours = (minutes = 0) => Math.round((minutes / 60) * 10) / 10
+
+async function steam(path, params) {
+  const query = new URLSearchParams({ key: process.env.STEAM_API_KEY, format: "json", ...params })
+  const res = await fetch(`${STEAM_API}${path}?${query}`, { signal: AbortSignal.timeout(20_000) })
+  if (!res.ok) throw new Error(`Steam ${res.status} for ${path}`)
+  return res.json()
+}
+
+// Same shape as the portfolio's /api/steam, built straight from the Steam Web API.
+async function fromSteam() {
+  const vanity = await steam("/ISteamUser/ResolveVanityURL/v1/", { vanityurl: VANITY })
+  const steamId = process.env.STEAM_ID ?? vanity.response.steamid
+  if (!steamId) throw new Error("vanity_not_found")
+  const [summaries, level, owned, recent] = await Promise.all([
+    steam("/ISteamUser/GetPlayerSummaries/v2/", { steamids: steamId }),
+    steam("/IPlayerService/GetSteamLevel/v1/", { steamid: steamId }).catch(() => ({ response: {} })),
+    steam("/IPlayerService/GetOwnedGames/v1/", { steamid: steamId, include_appinfo: "1", include_played_free_games: "1" }),
+    steam("/IPlayerService/GetRecentlyPlayedGames/v1/", { steamid: steamId }),
+  ])
+  const player = summaries.response.players[0]
+  if (!player) throw new Error("player_not_found")
+  const games = owned.response.games ?? []
+  const toGame = (g) => ({ name: g.name ?? `App ${g.appid}`, hours: hours(g.playtime_forever), recentHours: hours(g.playtime_2weeks) })
+  const recentGames = (recent.response.games ?? []).map(toGame).sort((x, y) => y.recentHours - x.recentHours)
+  return {
+    generatedAt: new Date().toISOString(),
+    profile: {
+      name: player.personaname,
+      url: player.profileurl,
+      level: level.response.player_level ?? null,
+      memberSince: player.timecreated ? new Date(player.timecreated * 1000).toISOString() : null,
+      online: player.personastate > 0,
+      currentGame: player.gameextrainfo ?? null,
+    },
+    library: {
+      gameCount: owned.response.game_count ?? games.length,
+      playedCount: games.filter((g) => g.playtime_forever > 0).length,
+      totalHours: Math.round(games.reduce((sum, g) => sum + g.playtime_forever, 0) / 60),
+      topGames: games.filter((g) => g.playtime_forever > 0).sort((x, y) => y.playtime_forever - x.playtime_forever).slice(0, 5).map(toGame),
+    },
+    recent: { totalHours: Math.round(recentGames.reduce((sum, g) => sum + g.recentHours, 0) * 10) / 10, games: recentGames.slice(0, 3) },
   }
+}
+
+async function fromPortfolio() {
+  const res = await fetch(SOURCE, { signal: AbortSignal.timeout(20_000) })
+  if (!res.ok) throw new Error(`HTTP ${res.status}`)
+  return res.json()
+}
+
+// Order: Steam directly (needs STEAM_API_KEY) → portfolio endpoint → last committed data.
+async function load() {
+  const sources = [
+    ...(process.env.STEAM_API_KEY ? [["Steam API", fromSteam]] : []),
+    ["portfolio endpoint", fromPortfolio],
+  ]
+  for (const [name, fetcher] of sources) {
+    try {
+      const data = await fetcher()
+      if (!data.library?.topGames?.length) throw new Error("empty library (is game details public?)")
+      await writeFile(CACHE, `${JSON.stringify(data, null, 2)}\n`)
+      console.log(`Data from ${name}`)
+      return data
+    } catch (error) {
+      console.warn(`${name} failed: ${error.message}`)
+    }
+  }
+  console.warn("Using cached data/steam.json")
+  return JSON.parse(await readFile(CACHE, "utf8"))
 }
 
 function render({ profile, library, recent }) {
