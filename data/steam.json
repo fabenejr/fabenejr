@@ -1,7 +1,6 @@
 {
-  "generatedAt": "2026-10-17T01:05:49.421Z",
+  "generatedAt": "2026-10-17T01:10:47.108Z",
   "profile": {
-    "steamId": "76561198047543297",
     "name": "FabenesOfSparta",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
     "url": "https://steamcommunity.com/id/juninfb/",
@@ -16,31 +15,26 @@
     "totalHours": 4382,
     "topGames": [
       {
-        "appId": 730,
         "name": "Counter-Strike 2",
         "hours": 1299.1,
         "recentHours": 6.1
       },
       {
-        "appId": 570,
         "name": "Dota 2",
         "hours": 764.9,
         "recentHours": 3.8
       },
       {
-        "appId": 537180,
         "name": "Digimon Masters Online",
         "hours": 366,
         "recentHours": 0
       },
       {
-        "appId": 892970,
         "name": "Valheim",
         "hours": 234.3,
         "recentHours": 0.2
       },
       {
-        "appId": 266840,
         "name": "Age of Mythology: Extended Edition",
         "hours": 193.4,
         "recentHours": 0
@@ -51,19 +45,16 @@
     "totalHours": 11.3,
     "games": [
       {
-        "appId": 730,
         "name": "Counter-Strike 2",
         "hours": 1299.1,
         "recentHours": 6.1
       },
       {
-        "appId": 570,
         "name": "Dota 2",
         "hours": 764.9,
         "recentHours": 3.8
       },
       {
-        "appId": 1097150,
         "name": "Fall Guys",
         "hours": 42.7,
         "recentHours": 0.8
