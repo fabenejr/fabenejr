@@ -47,6 +47,7 @@ async function fromSteam() {
     generatedAt: new Date().toISOString(),
     profile: {
       name: player.personaname,
+      avatar: player.avatarfull,
       url: player.profileurl,
       level: level.response.player_level ?? null,
       memberSince: player.timecreated ? new Date(player.timecreated * 1000).toISOString() : null,
@@ -90,7 +91,21 @@ async function load() {
   return JSON.parse(await readFile(CACHE, "utf8"))
 }
 
-function render({ profile, library, recent }) {
+// GitHub renders SVGs in <img>, which blocks external images, so the avatar is embedded as a data URI.
+async function avatarDataUri(url) {
+  if (!url) return null
+  try {
+    const res = await fetch(url, { signal: AbortSignal.timeout(20_000) })
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
+    const type = res.headers.get("content-type") ?? "image/jpeg"
+    return `data:${type};base64,${Buffer.from(await res.arrayBuffer()).toString("base64")}`
+  } catch (error) {
+    console.warn(`avatar skipped: ${error.message}`)
+    return null
+  }
+}
+
+function render({ profile, library, recent }, avatar) {
   const since = profile.memberSince ? new Date(profile.memberSince).getUTCFullYear() : null
   const top = library.topGames
   const max = top[0].hours
@@ -139,8 +154,11 @@ function render({ profile, library, recent }) {
   const stamp = new Date().toISOString().slice(0, 10)
   return `<svg xmlns="http://www.w3.org/2000/svg" width="880" height="380" viewBox="0 0 880 380" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif">
   <rect width="880" height="380" rx="14" fill="#0b1315" stroke="#1f3a3d"/>
-  <circle cx="44" cy="40" r="20" fill="#16282a" stroke="#2b7a80"/>
-  <text x="44" y="46" font-size="16" text-anchor="middle" fill="#4f98a3">♟</text>
+  <defs><clipPath id="avatar"><circle cx="44" cy="40" r="20"/></clipPath></defs>
+  ${avatar
+    ? `<image href="${avatar}" x="24" y="20" width="40" height="40" clip-path="url(#avatar)" preserveAspectRatio="xMidYMid slice"/>`
+    : `<text x="44" y="46" font-size="16" text-anchor="middle" fill="#4f98a3">♟</text>`}
+  <circle cx="44" cy="40" r="20" fill="none" stroke="#2b7a80"/>
   <text x="76" y="38" font-size="17" font-weight="700" fill="#e6edf3">${esc(profile.name)}</text>
   <rect x="${76 + profile.name.length * 9.6 + 12}" y="24" width="64" height="20" rx="10" fill="none" stroke="#2b7a80"/>
   <text x="${76 + profile.name.length * 9.6 + 44}" y="38" font-size="11" text-anchor="middle" fill="#8b949e">Level ${profile.level ?? "?"}</text>
@@ -156,5 +174,6 @@ function render({ profile, library, recent }) {
 `
 }
 
-await writeFile(OUT, render(await load()))
+const data = await load()
+await writeFile(OUT, render(data, await avatarDataUri(data.profile.avatar)))
 console.log("assets/steam.svg written")
