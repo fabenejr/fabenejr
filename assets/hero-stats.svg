@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="96" viewBox="0 0 880 96" font-family="-apple-system,'Segoe UI',Inter,Helvetica,Arial,sans-serif">
+  <rect width="880" height="96" rx="12" fill="#0b1315" stroke="#1f3a3d"/>
+  <line x1="293" y1="16" x2="293" y2="80" stroke="#1f3a3d"/>
+  <line x1="586" y1="16" x2="586" y2="80" stroke="#1f3a3d"/>
+  <text x="28" y="46" font-size="26" font-weight="700" fill="#e6edf3">8+ anos</text>
+  <text x="28" y="70" font-size="12" fill="#8b949e">em tecnologia, do suporte à engenharia</text>
+  <text x="321" y="46" font-size="26" font-weight="700" fill="#e6edf3">5 empresas</text>
+  <text x="321" y="70" font-size="12" fill="#8b949e">Londrisoft, Omie, Movidesk, Zenvia e CI&amp;T</text>
+  <text x="614" y="46" font-size="26" font-weight="700" fill="#e6edf3">Missão crítica</text>
+  <text x="614" y="70" font-size="12" fill="#8b949e">plataforma BFF para serviços financeiros globais</text>
+</svg>

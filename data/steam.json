@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-10-17T00:00:00.000Z",
+  "profile": { "name": "FabenesOfSparta", "url": "https://steamcommunity.com/id/juninfb", "level": 27, "memberSince": "2011-01-01T00:00:00.000Z", "online": true, "currentGame": null },
+  "library": {
+    "gameCount": 170, "playedCount": 115, "totalHours": 4400,
+    "topGames": [
+      { "name": "Counter-Strike 2", "hours": 1299.1 },
+      { "name": "Dota 2", "hours": 764.9 },
+      { "name": "Digimon Masters Online", "hours": 366 },
+      { "name": "Valheim", "hours": 234.3 },
+      { "name": "Age of Mythology: Extended Edition", "hours": 193.4 }
+    ]
+  },
+  "recent": { "totalHours": 11.3, "games": [ { "name": "Counter-Strike 2", "recentHours": 6.1 } ] }
+}
