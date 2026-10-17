@@ -13,23 +13,7 @@
 
 <p align="center"><img src="./assets/dashboard.svg" alt="System dashboard" width="100%" /></p>
 
-## 1. Summary
-
-I design and ship back-end systems where the edge handles traffic, the gateway handles policy, the BFF handles orchestration and the domain stays free of framework code.
-
-## 2. Requirements (how I work)
-
-| ID | Level | Requirement |
-|---|---|---|
-| R-01 | **MUST** | Keep business rules in a domain layer with no framework imports |
-| R-02 | **MUST** | Money is integer cents, never floats |
-| R-03 | **MUST** | Every adapter has an in-memory twin and passes the same contract tests |
-| R-04 | **MUST** | TypeScript strict, zero `any` |
-| R-05 | **SHOULD** | Merge to main is staging, an explicit release is production |
-| R-06 | **SHOULD** | Observe everything: structured logs, metrics, alerts |
-| R-07 | **MAY** | Add AI where it removes toil, with a kill switch and a daily budget |
-
-## 3. Architecture
+## 1. Architecture
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#0a2929','primaryTextColor':'#ffffff','primaryBorderColor':'#4f98a3','lineColor':'#4f98a3','secondaryColor':'#01696f','tertiaryColor':'#0d1117'}}}%%
@@ -44,7 +28,7 @@ flowchart LR
     B -. metrics .-> G[Grafana]
 ```
 
-## 4. Component matrix
+## 2. Component matrix
 
 | Layer | Technology | Notes |
 |---|---|---|
@@ -54,7 +38,7 @@ flowchart LR
 | Edge / platform | ![Kong](https://img.shields.io/badge/-Kong-003459?style=flat-square&logo=kong&logoColor=white) ![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white) ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat-square&logo=grafana&logoColor=white) ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white) ![Lambda](https://img.shields.io/badge/-Lambda-FF9900?style=flat-square&logo=awslambda&logoColor=white) ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Vercel](https://img.shields.io/badge/-Vercel-000000?style=flat-square&logo=vercel&logoColor=white) | gateway, observability |
 | AI | ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white) ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white) | agents, automation |
 
-## 5. Active project
+## 3. Active project
 
 **ChoppNow**: a sales booster for draft beer events. A public storefront generates the order, and a lean console supports the supplier payout.
 
@@ -66,7 +50,7 @@ flowchart LR
 | Testing | Jest + contract tests · Playwright · pgTAP | same suite against real and in-memory adapters |
 | Delivery | merge = staging, Release = production | production changes are deliberate |
 
-## 6. Telemetry
+## 4. Telemetry
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=fabenejr&show_icons=true&hide_border=true&bg_color=0d1117&title_color=4f98a3&icon_color=4f98a3&text_color=c9d1d9" />
