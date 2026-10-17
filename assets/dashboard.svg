@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="300" viewBox="0 0 880 300" font-family="'Fira Code',ui-monospace,Menlo,Consolas,monospace">
+  <rect width="880" height="300" rx="12" fill="#0d1117" stroke="#1f3a3d"/>
+  <rect width="880" height="40" rx="12" fill="#0a2929"/>
+  <rect y="28" width="880" height="12" fill="#0a2929"/>
+  <circle cx="22" cy="20" r="5" fill="#01696f"/>
+  <text x="38" y="25" font-size="13" fill="#c9d1d9">SYSTEM DASHBOARD · paulo-fabene · env=production</text>
+  <circle cx="760" cy="20" r="4" fill="#3fb950"/>
+  <text x="772" y="25" font-size="12" fill="#3fb950">ALL SYSTEMS GO</text>
+
+  <g font-size="11" fill="#8b949e">
+    <rect x="20" y="60" width="200" height="100" rx="8" fill="#111b1d" stroke="#1f3a3d"/>
+    <text x="36" y="84">RELEASES SHIPPED</text>
+    <text x="36" y="128" font-size="38" fill="#4f98a3">27</text>
+    <text x="36" y="148">ChoppNow, since 2026-08</text>
+
+    <rect x="240" y="60" width="200" height="100" rx="8" fill="#111b1d" stroke="#1f3a3d"/>
+    <text x="256" y="84">TYPE SAFETY</text>
+    <text x="256" y="128" font-size="38" fill="#4f98a3">0 any</text>
+    <text x="256" y="148">TypeScript strict</text>
+
+    <rect x="460" y="60" width="200" height="100" rx="8" fill="#111b1d" stroke="#1f3a3d"/>
+    <text x="476" y="84">DOMAIN COVERAGE GATE</text>
+    <text x="476" y="128" font-size="38" fill="#4f98a3">99%</text>
+    <text x="476" y="148">lines, enforced in CI</text>
+
+    <rect x="680" y="60" width="180" height="100" rx="8" fill="#111b1d" stroke="#1f3a3d"/>
+    <text x="696" y="84">ORDER STATE AXES</text>
+    <text x="696" y="128" font-size="38" fill="#4f98a3">4</text>
+    <text x="696" y="148">orthogonal, tested</text>
+  </g>
+
+  <text x="20" y="190" font-size="11" fill="#8b949e">FOCUS ALLOCATION</text>
+  <g font-size="11" fill="#c9d1d9">
+    <text x="20" y="214">Back-end / BFF</text>
+    <rect x="150" y="205" width="700" height="10" rx="5" fill="#16282a"/><rect x="150" y="205" width="560" height="10" rx="5" fill="#01696f"/>
+    <text x="20" y="238">API gateway / infra</text>
+    <rect x="150" y="229" width="700" height="10" rx="5" fill="#16282a"/><rect x="150" y="229" width="385" height="10" rx="5" fill="#4f98a3"/>
+    <text x="20" y="262">AI / automation</text>
+    <rect x="150" y="253" width="700" height="10" rx="5" fill="#16282a"/><rect x="150" y="253" width="280" height="10" rx="5" fill="#2b7a80"/>
+  </g>
+  <text x="860" y="288" font-size="9" fill="#586069" text-anchor="end">illustrative allocation</text>
+</svg>
