@@ -4,8 +4,6 @@ on:
   schedule:
     - cron: "0 9 * * *"
   workflow_dispatch:
-  push:
-    branches: [feat/portfolio-mirror-readme]
 
 permissions:
   contents: write
