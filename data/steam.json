@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T12:51:42.688Z",
+  "generatedAt": "2026-10-19T15:59:54.723Z",
   "profile": {
     "name": "FabenesOfSparta",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
@@ -12,17 +12,17 @@
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4385,
+    "totalHours": 4387,
     "topGames": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1300.1,
-        "recentHours": 6.9
+        "hours": 1301.6,
+        "recentHours": 8.4
       },
       {
         "name": "Dota 2",
-        "hours": 766.3,
-        "recentHours": 5.2
+        "hours": 766.9,
+        "recentHours": 5.8
       },
       {
         "name": "Digimon Masters Online",
@@ -42,17 +42,17 @@
     ]
   },
   "recent": {
-    "totalHours": 13.9,
+    "totalHours": 16,
     "games": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1300.1,
-        "recentHours": 6.9
+        "hours": 1301.6,
+        "recentHours": 8.4
       },
       {
         "name": "Dota 2",
-        "hours": 766.3,
-        "recentHours": 5.2
+        "hours": 766.9,
+        "recentHours": 5.8
       },
       {
         "name": "Fall Guys",
