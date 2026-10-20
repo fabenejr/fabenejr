@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-19T15:59:54.723Z",
+  "generatedAt": "2026-10-20T13:57:31.271Z",
   "profile": {
     "name": "FabenesOfSparta",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
@@ -12,7 +12,7 @@
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4387,
+    "totalHours": 4389,
     "topGames": [
       {
         "name": "Counter-Strike 2",
@@ -22,7 +22,7 @@
       {
         "name": "Dota 2",
         "hours": 766.9,
-        "recentHours": 5.8
+        "recentHours": 5.2
       },
       {
         "name": "Digimon Masters Online",
@@ -31,8 +31,8 @@
       },
       {
         "name": "Valheim",
-        "hours": 234.3,
-        "recentHours": 0.2
+        "hours": 236.3,
+        "recentHours": 2.2
       },
       {
         "name": "Age of Mythology: Extended Edition",
@@ -42,7 +42,7 @@
     ]
   },
   "recent": {
-    "totalHours": 16,
+    "totalHours": 17.4,
     "games": [
       {
         "name": "Counter-Strike 2",
@@ -52,12 +52,12 @@
       {
         "name": "Dota 2",
         "hours": 766.9,
-        "recentHours": 5.8
+        "recentHours": 5.2
       },
       {
-        "name": "Fall Guys",
-        "hours": 42.7,
-        "recentHours": 0.8
+        "name": "Valheim",
+        "hours": 236.3,
+        "recentHours": 2.2
       }
     ]
   }
