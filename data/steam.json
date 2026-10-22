@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T14:13:40.483Z",
+  "generatedAt": "2026-10-22T14:12:45.562Z",
   "profile": {
     "name": "FabenesOfSparta",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
@@ -12,12 +12,12 @@
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4389,
+    "totalHours": 4390,
     "topGames": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1301.6,
-        "recentHours": 8.4
+        "hours": 1302.4,
+        "recentHours": 9.1
       },
       {
         "name": "Dota 2",
@@ -42,12 +42,12 @@
     ]
   },
   "recent": {
-    "totalHours": 17.4,
+    "totalHours": 18.1,
     "games": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1301.6,
-        "recentHours": 8.4
+        "hours": 1302.4,
+        "recentHours": 9.1
       },
       {
         "name": "Dota 2",
