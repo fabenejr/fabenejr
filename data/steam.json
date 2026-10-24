@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T13:55:40.811Z",
+  "generatedAt": "2026-10-24T12:59:28.036Z",
   "profile": {
     "name": "FabenesOfSparta",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
@@ -12,12 +12,12 @@
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4391,
+    "totalHours": 4393,
     "topGames": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1304,
-        "recentHours": 10.8
+        "hours": 1306.1,
+        "recentHours": 11.1
       },
       {
         "name": "Dota 2",
@@ -32,7 +32,7 @@
       {
         "name": "Valheim",
         "hours": 236.5,
-        "recentHours": 2.4
+        "recentHours": 2.2
       },
       {
         "name": "Age of Mythology: Extended Edition",
@@ -42,12 +42,12 @@
     ]
   },
   "recent": {
-    "totalHours": 19.4,
+    "totalHours": 19.5,
     "games": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1304,
-        "recentHours": 10.8
+        "hours": 1306.1,
+        "recentHours": 11.1
       },
       {
         "name": "Dota 2",
@@ -57,7 +57,7 @@
       {
         "name": "Valheim",
         "hours": 236.5,
-        "recentHours": 2.4
+        "recentHours": 2.2
       }
     ]
   }
