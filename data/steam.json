@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-10-25T13:26:39.075Z",
+  "generatedAt": "2026-10-26T15:36:31.735Z",
   "profile": {
     "name": "FabeneShoot | Skins",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
     "url": "https://steamcommunity.com/id/juninfb/",
     "level": 27,
     "memberSince": "2011-08-25T18:15:35.000Z",
-    "online": true,
+    "online": false,
     "currentGame": null
   },
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4393,
+    "totalHours": 4395,
     "topGames": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1306.1,
-        "recentHours": 11.1
+        "hours": 1306.7,
+        "recentHours": 10.3
       },
       {
         "name": "Dota 2",
-        "hours": 766.9,
-        "recentHours": 4.6
+        "hours": 767.5,
+        "recentHours": 3.6
       },
       {
         "name": "Digimon Masters Online",
@@ -31,8 +31,8 @@
       },
       {
         "name": "Valheim",
-        "hours": 236.5,
-        "recentHours": 2.2
+        "hours": 236.7,
+        "recentHours": 2.4
       },
       {
         "name": "Age of Mythology: Extended Edition",
@@ -42,22 +42,22 @@
     ]
   },
   "recent": {
-    "totalHours": 19.5,
+    "totalHours": 17.9,
     "games": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1306.1,
-        "recentHours": 11.1
+        "hours": 1306.7,
+        "recentHours": 10.3
       },
       {
         "name": "Dota 2",
-        "hours": 766.9,
-        "recentHours": 4.6
+        "hours": 767.5,
+        "recentHours": 3.6
       },
       {
         "name": "Valheim",
-        "hours": 236.5,
-        "recentHours": 2.2
+        "hours": 236.7,
+        "recentHours": 2.4
       }
     ]
   }
