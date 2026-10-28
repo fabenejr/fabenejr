@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T15:00:35.992Z",
+  "generatedAt": "2026-10-28T15:36:48.082Z",
   "profile": {
     "name": "FabeneShoot | Skins",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
@@ -12,17 +12,17 @@
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4395,
+    "totalHours": 4396,
     "topGames": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1306.7,
+        "hours": 1307.5,
         "recentHours": 9.7
       },
       {
         "name": "Dota 2",
         "hours": 768,
-        "recentHours": 3.6
+        "recentHours": 3.1
       },
       {
         "name": "Digimon Masters Online",
@@ -42,17 +42,17 @@
     ]
   },
   "recent": {
-    "totalHours": 16.8,
+    "totalHours": 16.3,
     "games": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1306.7,
+        "hours": 1307.5,
         "recentHours": 9.7
       },
       {
         "name": "Dota 2",
         "hours": 768,
-        "recentHours": 3.6
+        "recentHours": 3.1
       },
       {
         "name": "Valheim",
