@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T16:40:23.033Z",
+  "generatedAt": "2026-11-05T16:56:02.451Z",
   "profile": {
     "name": "FabeneShoot | Skins",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
@@ -12,11 +12,11 @@
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4408,
+    "totalHours": 4409,
     "topGames": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1313.4,
+        "hours": 1314.1,
         "recentHours": 11.8
       },
       {
@@ -46,7 +46,7 @@
     "games": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1313.4,
+        "hours": 1314.1,
         "recentHours": 11.8
       },
       {
