@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T16:56:02.451Z",
+  "generatedAt": "2026-11-06T16:28:03.526Z",
   "profile": {
     "name": "FabeneShoot | Skins",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
@@ -12,12 +12,12 @@
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4409,
+    "totalHours": 4413,
     "topGames": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1314.1,
-        "recentHours": 11.8
+        "hours": 1317.4,
+        "recentHours": 13.4
       },
       {
         "name": "Dota 2",
@@ -32,7 +32,7 @@
       {
         "name": "Valheim",
         "hours": 238.2,
-        "recentHours": 1.8
+        "recentHours": 1.7
       },
       {
         "name": "Age of Mythology: Extended Edition",
@@ -42,12 +42,12 @@
     ]
   },
   "recent": {
-    "totalHours": 19.6,
+    "totalHours": 21.1,
     "games": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1314.1,
-        "recentHours": 11.8
+        "hours": 1317.4,
+        "recentHours": 13.4
       },
       {
         "name": "Dota 2",
@@ -57,7 +57,7 @@
       {
         "name": "Valheim",
         "hours": 238.2,
-        "recentHours": 1.8
+        "recentHours": 1.7
       }
     ]
   }
