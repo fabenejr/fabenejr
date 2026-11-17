@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T19:01:42.106Z",
+  "generatedAt": "2026-11-17T17:58:46.619Z",
   "profile": {
     "name": "FabeneShoot | Skins",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
@@ -32,7 +32,7 @@
       {
         "name": "Valheim",
         "hours": 238.2,
-        "recentHours": 0.7
+        "recentHours": 0.4
       },
       {
         "name": "Age of Mythology: Extended Edition",
@@ -42,7 +42,7 @@
     ]
   },
   "recent": {
-    "totalHours": 9.2,
+    "totalHours": 8.9,
     "games": [
       {
         "name": "Counter-Strike 2",
@@ -52,7 +52,7 @@
       {
         "name": "Valheim",
         "hours": 238.2,
-        "recentHours": 0.7
+        "recentHours": 0.4
       },
       {
         "name": "Fall Guys",
