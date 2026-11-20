@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-11-19T17:49:47.394Z",
+  "generatedAt": "2026-11-20T17:24:46.319Z",
   "profile": {
     "name": "FabeneShoot | Skins",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
     "url": "https://steamcommunity.com/id/juninfb/",
     "level": 27,
     "memberSince": "2011-08-25T18:15:35.000Z",
-    "online": false,
+    "online": true,
     "currentGame": null
   },
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4418,
+    "totalHours": 4419,
     "topGames": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1322.4,
-        "recentHours": 8.3
+        "hours": 1323.2,
+        "recentHours": 5.7
       },
       {
         "name": "Dota 2",
@@ -42,12 +42,12 @@
     ]
   },
   "recent": {
-    "totalHours": 9.2,
+    "totalHours": 6.6,
     "games": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1322.4,
-        "recentHours": 8.3
+        "hours": 1323.2,
+        "recentHours": 5.7
       },
       {
         "name": "Dota 2",
