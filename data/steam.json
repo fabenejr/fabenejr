@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-20T17:24:46.319Z",
+  "generatedAt": "2026-11-21T16:29:02.149Z",
   "profile": {
     "name": "FabeneShoot | Skins",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
     "url": "https://steamcommunity.com/id/juninfb/",
     "level": 27,
     "memberSince": "2011-08-25T18:15:35.000Z",
-    "online": true,
+    "online": false,
     "currentGame": null
   },
   "library": {
     "gameCount": 170,
     "playedCount": 115,
-    "totalHours": 4419,
+    "totalHours": 4422,
     "topGames": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1323.2,
-        "recentHours": 5.7
+        "hours": 1325,
+        "recentHours": 7.6
       },
       {
         "name": "Dota 2",
-        "hours": 773.5,
-        "recentHours": 0.5
+        "hours": 774,
+        "recentHours": 1.1
       },
       {
         "name": "Digimon Masters Online",
@@ -42,17 +42,17 @@
     ]
   },
   "recent": {
-    "totalHours": 6.6,
+    "totalHours": 9.1,
     "games": [
       {
         "name": "Counter-Strike 2",
-        "hours": 1323.2,
-        "recentHours": 5.7
+        "hours": 1325,
+        "recentHours": 7.6
       },
       {
         "name": "Dota 2",
-        "hours": 773.5,
-        "recentHours": 0.5
+        "hours": 774,
+        "recentHours": 1.1
       },
       {
         "name": "Fall Guys",
