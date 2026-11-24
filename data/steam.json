@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T20:42:05.917Z",
+  "generatedAt": "2026-11-24T19:47:24.369Z",
   "profile": {
     "name": "FabeneShoot | Skins",
     "avatar": "https://avatars.steamstatic.com/60a08004ab4caf17dee67aeabda1d156d08dff11_full.jpg",
@@ -21,8 +21,8 @@
       },
       {
         "name": "Dota 2",
-        "hours": 775.8,
-        "recentHours": 2.8
+        "hours": 776.2,
+        "recentHours": 3.2
       },
       {
         "name": "Digimon Masters Online",
@@ -42,7 +42,7 @@
     ]
   },
   "recent": {
-    "totalHours": 12,
+    "totalHours": 12.4,
     "games": [
       {
         "name": "Counter-Strike 2",
@@ -51,8 +51,8 @@
       },
       {
         "name": "Dota 2",
-        "hours": 775.8,
-        "recentHours": 2.8
+        "hours": 776.2,
+        "recentHours": 3.2
       },
       {
         "name": "Fall Guys",
